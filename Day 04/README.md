@@ -1,6 +1,4 @@
-🚀 **90 Days DevOps Challenge – Day 04**
-
-➡️ **Day 04 – Shell Scripting Basics** 🐧
+🚀 ➡️ **Day 04 – Shell Scripting Basics** 🐧
 
 Today I learned the fundamentals of **Shell Scripting** and how it helps automate repetitive tasks in Linux and DevOps environments.
 
