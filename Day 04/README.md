@@ -31,3 +31,37 @@ role="Linux Administrator"
 
 echo "Name: $name"
 echo "Role: $role"
+
+
+
+### 2. User Input
+
+#!/bin/bash
+
+echo "Enter your name:"
+read name
+
+echo "Hello $name"
+
+
+
+3. If-Else Condition
+
+#!/bin/bash
+
+if [ -f /etc/passwd ]; then
+    echo "passwd file exists"
+else
+    echo "passwd file not found"
+fi
+
+
+
+4. For Loop
+
+#!/bin/bash
+
+for i in 1 2 3 4 5
+do
+    echo "Number: $i"
+done
