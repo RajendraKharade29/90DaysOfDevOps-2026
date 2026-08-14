@@ -1,24 +1,33 @@
-🚀 ➡️ **Day 04 – Shell Scripting Basics** 🐧
+# 🐚 Day 04 - Shell Scripting Basics
 
-Today I learned the fundamentals of **Shell Scripting** and how it helps automate repetitive tasks in Linux and DevOps environments.
+## 🎯 Objective
 
-### 📚 Topics Covered
+Learn the basics of Shell Scripting and understand how Bash can be used to automate repetitive Linux and DevOps tasks.
 
-🔹 Bash & Shell basics
-🔹 Variables & User Input
-🔹 If-Else Conditions
-🔹 For & While Loops
-🔹 Functions
-🔹 File & Directory Checks
-🔹 Script Execution & Permissions
+## 📚 Topics Covered
 
-💻 **Hands-on:** Created basic Bash scripts for system information, user input, file checks and simple automation.
+- Shell & Bash Basics
+- Variables
+- User Input
+- Command Line Arguments
+- Conditional Statements (`if-else`)
+- Loops (`for`, `while`)
+- Functions
+- File & Directory Checks
+- Exit Status
+- Script Execution
+- File Permissions
+- Basic Linux Automation
 
-🎯 **Key Takeaway:**
-Shell scripting is an essential skill for **Linux Administration, DevOps and Automation**.
+## 💻 Practical
 
-**Learn → Practice → Automate 🚀**
+### 1. Variables
 
-✅ **Day 04 Completed!**
+```bash
+#!/bin/bash
 
-#90DaysDevOps #DevOps #ShellScripting #Bash #Linux #Automation #AWS #Docker #Terraform #CICD
+name="Rajendra"
+role="Linux Administrator"
+
+echo "Name: $name"
+echo "Role: $role"
